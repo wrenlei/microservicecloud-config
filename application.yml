@@ -4,6 +4,15 @@ spring:
   profiles: dev #开发环境
   application:
     name: config-server-dev
+---
+server:
+  port: 9090
+spring:
+  profiles: test #测试环境
+  application:
+    name: config-server-test
+
+ 
 
 
     
